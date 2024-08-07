@@ -18,3 +18,5 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools_scm]
 # Note: With recent setuptools we can use "version_file" instead of "write_to"
 write_to = "dgpython_local/_version.py"
+
+local_scheme = "setup:local_version_scheme"
