@@ -67,7 +67,7 @@ if __name__ == "__main__":
           description="local module definitions for dataguzzler python",
           author="Stephen D. Holland",
           #version=version,
-          url="http://thermal.cnde.iastate.edu",
+          url="https://github.com/isuthermography/dgpython-local",
           ext_modules=[],
           zip_safe=False,
           cmdclass={

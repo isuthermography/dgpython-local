@@ -20,8 +20,11 @@ dpi_kwargs = None
 # The list will be ordered the same way as the enable_
 # parameters.
 
-# For example,
-# (mot,)=dgpy.include(dgpython_local,"local.dpi",enable_mot=True)
+# For example, you could include the following two lines in a
+# .dgp file in order to include motion control support in that
+# dataguzzler-python configuration:
+#   import dgpython_local
+#   (mot,)=dgpy.include(dgpython_local,"local.dpi",enable_mot=True)
 
 _standard_module_descriptions = {
     "mot":"motion control",
